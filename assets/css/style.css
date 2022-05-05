@@ -55,12 +55,29 @@ a {
     white-space: nowrap;
 }
 
-.about-us{
+.about-us {
     padding: 20px;
-    background-color:#926239;
-    color:white;
+    background-color: #926239;
+    color: white;
 }
-.info-us{
-    padding: 20px; 
-    color:#926239;
+
+.info-us {
+    padding: 20px;
+    color: #926239;
+}
+
+.main-info__us {
+    display: inline-block;
+    width: 33.3%;
+}
+
+.text {
+    background-color: #926239;
+    color: white;
+    padding: 30px;
+}
+
+.main-text {
+    padding: 30px;
+    background-color:aliceblue;
 }
