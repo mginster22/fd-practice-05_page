@@ -49,7 +49,14 @@ a {
     color: white;
     background-color: #926239;
 }
-.welcome-section__title, .welcome-section__link{
+
+.welcome-section__title,
+.welcome-section__link {
     white-space: nowrap;
-  }
-  
+}
+
+.about-us{
+    padding: 10px;
+    background-color:#926239;
+    color:white;
+}
