@@ -56,7 +56,11 @@ a {
 }
 
 .about-us{
-    padding: 10px;
+    padding: 20px;
     background-color:#926239;
     color:white;
+}
+.info-us{
+    padding: 20px; 
+    color:#926239;
 }
