@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: inherit;
+    color: #926239;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcome-section {
+    height: 100vh;
+    padding: 425px 0;
+
+    background-image: url(./../images/sea.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+.welcome-section__title {
+    font-size: 50px;
+}
+
+.welcome-section__title-text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.welcome-section__link {
+    display: inline-block;
+    padding: 15px 20px;
+    border: 1px solid #926239;
+    border-radius: 10px;
+    color: #926239;
+}
+
+.welcome-section__link:hover {
+    color: white;
+    background-color: #926239;
+}
+.welcome-section__title, .welcome-section__link{
+    white-space: nowrap;
+  }
+  
