@@ -44,10 +44,6 @@ a {
     
     border: 1px solid #926239;
     border-radius: 10px;
-    
-    /* text-overflow: ellipsis; */
-    overflow: hidden;
-    
     color: #926239;
 }
 
@@ -59,6 +55,8 @@ a {
 .welcome-section__title,
 .welcome-section__link {
     white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .about-us {
